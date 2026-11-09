@@ -1,0 +1,596 @@
+{
+  "seed": 20261109,
+  "n_trials_per_scenario_variant": 10000,
+  "horizon_months": 60,
+  "scenarios": {
+    "A_lean": {
+      "label": "A \u2014 Lean startup",
+      "capital": 435230,
+      "opex_monthly": 30641,
+      "steady_rx_per_day": 80,
+      "variants": {
+        "bear": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 2703,
+          "n_payback_achieved": 5,
+          "time_to_breakeven_months": {
+            "median": 13.0,
+            "p5": 11.0,
+            "p95": 25.0,
+            "mean": 13.693303736588975
+          },
+          "cumulative_payback_years": {
+            "median": 4.666666666666667,
+            "p5": 4.016666666666667,
+            "p95": 4.933333333333334
+          },
+          "roi_5yr": {
+            "median": -0.8242735305639503,
+            "p5": -1.6051219110799047,
+            "p95": 0.024681043220658113,
+            "mean": -0.8096544296901584
+          },
+          "simple_payback_years": {
+            "median": 18.80556583576421,
+            "p5": 5.4405426390170835,
+            "p95": 279.90762799516233
+          },
+          "p_never_breakeven": 0.7297,
+          "p_payback_over_5y": 0.9995,
+          "p_roi_negative": 0.9452,
+          "p_roi_over_100pct": 0.0005
+        },
+        "base": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 9899,
+          "n_payback_achieved": 3840,
+          "time_to_breakeven_months": {
+            "median": 10.0,
+            "p5": 7.0,
+            "p95": 13.0,
+            "mean": 10.572785129811091
+          },
+          "cumulative_payback_years": {
+            "median": 4.25,
+            "p5": 3.1666666666666665,
+            "p95": 4.916666666666667
+          },
+          "roi_5yr": {
+            "median": 0.8276225232949461,
+            "p5": -0.09897829840344198,
+            "p95": 1.7614169505286035,
+            "mean": 0.8307882344409135
+          },
+          "simple_payback_years": {
+            "median": 4.080633073985336,
+            "p5": 2.1736319501708947,
+            "p95": 16.09831645003409
+          },
+          "p_never_breakeven": 0.0101,
+          "p_payback_over_5y": 0.616,
+          "p_roi_negative": 0.0712,
+          "p_roi_over_100pct": 0.384
+        },
+        "bull": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 10000,
+          "n_payback_achieved": 9943,
+          "time_to_breakeven_months": {
+            "median": 7.0,
+            "p5": 5.0,
+            "p95": 9.0,
+            "mean": 6.9283
+          },
+          "cumulative_payback_years": {
+            "median": 2.75,
+            "p5": 2.1666666666666665,
+            "p95": 3.8333333333333335
+          },
+          "roi_5yr": {
+            "median": 2.4905977368505345,
+            "p5": 1.521355184139602,
+            "p95": 3.4539580025708863,
+            "mean": 2.4921987545402176
+          },
+          "simple_payback_years": {
+            "median": 1.7265987243966185,
+            "p5": 1.235964226004115,
+            "p95": 2.856555585498311
+          },
+          "p_never_breakeven": 0.0,
+          "p_payback_over_5y": 0.0057,
+          "p_roi_negative": 0.0,
+          "p_roi_over_100pct": 0.9943
+        }
+      }
+    },
+    "B_standard": {
+      "label": "B \u2014 Standard startup",
+      "capital": 791010,
+      "opex_monthly": 51050,
+      "steady_rx_per_day": 150,
+      "variants": {
+        "bear": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 7053,
+          "n_payback_achieved": 120,
+          "time_to_breakeven_months": {
+            "median": 13.0,
+            "p5": 10.0,
+            "p95": 13.0,
+            "mean": 12.703672196228554
+          },
+          "cumulative_payback_years": {
+            "median": 4.583333333333333,
+            "p5": 3.8291666666666666,
+            "p95": 5.0
+          },
+          "roi_5yr": {
+            "median": -0.21322572304786536,
+            "p5": -1.0052527885446787,
+            "p95": 0.6552676869926541,
+            "mean": -0.19939046406120278
+          },
+          "simple_payback_years": {
+            "median": 10.459155728982267,
+            "p5": 3.796295152004415,
+            "p95": 105.9147693610382
+          },
+          "p_never_breakeven": 0.2947,
+          "p_payback_over_5y": 0.988,
+          "p_roi_negative": 0.6625,
+          "p_roi_over_100pct": 0.012
+        },
+        "base": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 9996,
+          "n_payback_achieved": 8012,
+          "time_to_breakeven_months": {
+            "median": 8.0,
+            "p5": 6.0,
+            "p95": 13.0,
+            "mean": 8.72609043617447
+          },
+          "cumulative_payback_years": {
+            "median": 3.6666666666666665,
+            "p5": 2.75,
+            "p95": 4.833333333333333
+          },
+          "roi_5yr": {
+            "median": 1.496977553264536,
+            "p5": 0.544312360502143,
+            "p95": 2.4630633469895353,
+            "mean": 1.4970605682320368
+          },
+          "simple_payback_years": {
+            "median": 2.6505117262702504,
+            "p5": 1.6627544408074184,
+            "p95": 6.0345928818860335
+          },
+          "p_never_breakeven": 0.0004,
+          "p_payback_over_5y": 0.1988,
+          "p_roi_negative": 0.0044,
+          "p_roi_over_100pct": 0.8012
+        },
+        "bull": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 10000,
+          "n_payback_achieved": 9997,
+          "time_to_breakeven_months": {
+            "median": 6.0,
+            "p5": 4.0,
+            "p95": 7.0,
+            "mean": 5.9759
+          },
+          "cumulative_payback_years": {
+            "median": 2.3333333333333335,
+            "p5": 1.8333333333333333,
+            "p95": 3.0
+          },
+          "roi_5yr": {
+            "median": 3.19829450507028,
+            "p5": 2.207029318428072,
+            "p95": 4.184535143955945,
+            "mean": 3.193303524564555
+          },
+          "simple_payback_years": {
+            "median": 1.3779741045493379,
+            "p5": 1.0460137867035357,
+            "p95": 2.054443536302075
+          },
+          "p_never_breakeven": 0.0,
+          "p_payback_over_5y": 0.0003,
+          "p_roi_negative": 0.0,
+          "p_roi_over_100pct": 0.9997
+        }
+      }
+    },
+    "C_larger": {
+      "label": "C \u2014 Larger + delivery startup",
+      "capital": 1309273,
+      "opex_monthly": 80083,
+      "steady_rx_per_day": 220,
+      "variants": {
+        "bear": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 5730,
+          "n_payback_achieved": 30,
+          "time_to_breakeven_months": {
+            "median": 13.0,
+            "p5": 12.0,
+            "p95": 13.0,
+            "mean": 13.198603839441535
+          },
+          "cumulative_payback_years": {
+            "median": 4.75,
+            "p5": 3.9375,
+            "p95": 5.0
+          },
+          "roi_5yr": {
+            "median": -0.3821009568246363,
+            "p5": -1.0977257341623015,
+            "p95": 0.41703160779443976,
+            "mean": -0.3682637822058632
+          },
+          "simple_payback_years": {
+            "median": 13.83148983351819,
+            "p5": 4.578658779704404,
+            "p95": 149.17465985181184
+          },
+          "p_never_breakeven": 0.427,
+          "p_payback_over_5y": 0.997,
+          "p_roi_negative": 0.7924,
+          "p_roi_over_100pct": 0.003
+        },
+        "base": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 9992,
+          "n_payback_achieved": 6051,
+          "time_to_breakeven_months": {
+            "median": 10.0,
+            "p5": 7.0,
+            "p95": 13.0,
+            "mean": 10.110688550840672
+          },
+          "cumulative_payback_years": {
+            "median": 4.0,
+            "p5": 3.0,
+            "p95": 4.916666666666667
+          },
+          "roi_5yr": {
+            "median": 1.1450850136644883,
+            "p5": 0.2909524610211685,
+            "p95": 2.0198256221998796,
+            "mean": 1.1472927962084145
+          },
+          "simple_payback_years": {
+            "median": 3.289615296010564,
+            "p5": 1.9612154365667382,
+            "p95": 8.746884316581006
+          },
+          "p_never_breakeven": 0.0008,
+          "p_payback_over_5y": 0.3949,
+          "p_roi_negative": 0.0118,
+          "p_roi_over_100pct": 0.6051
+        },
+        "bull": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 10000,
+          "n_payback_achieved": 9987,
+          "time_to_breakeven_months": {
+            "median": 7.0,
+            "p5": 5.0,
+            "p95": 9.0,
+            "mean": 6.4717
+          },
+          "cumulative_payback_years": {
+            "median": 2.6666666666666665,
+            "p5": 2.0833333333333335,
+            "p95": 3.5
+          },
+          "roi_5yr": {
+            "median": 2.6729108093473255,
+            "p5": 1.7859860646103807,
+            "p95": 3.570941237586991,
+            "mean": 2.6716453357424776
+          },
+          "simple_payback_years": {
+            "median": 1.6108859060855996,
+            "p5": 1.2017527801115713,
+            "p95": 2.4679696323816236
+          },
+          "p_never_breakeven": 0.0,
+          "p_payback_over_5y": 0.0013,
+          "p_roi_negative": 0.0,
+          "p_roi_over_100pct": 0.9987
+        }
+      }
+    },
+    "D_acquisition": {
+      "label": "D \u2014 Acquisition (B-sized steady store)",
+      "capital": 880000,
+      "opex_monthly": 51050,
+      "steady_rx_per_day": 150,
+      "variants": {
+        "bear": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 5439,
+          "n_payback_achieved": 281,
+          "time_to_breakeven_months": {
+            "median": 7.0,
+            "p5": 1.0,
+            "p95": 13.0,
+            "mean": 8.658025372311087
+          },
+          "cumulative_payback_years": {
+            "median": 4.416666666666667,
+            "p5": 3.25,
+            "p95": 5.0
+          },
+          "roi_5yr": {
+            "median": -0.12779732190432952,
+            "p5": -1.0033583829719275,
+            "p95": 0.8392819972998498,
+            "mean": -0.11317787418319619
+          },
+          "simple_payback_years": {
+            "median": 12.618369740741798,
+            "p5": 4.237222560139831,
+            "p95": 147.1623641555752
+          },
+          "p_never_breakeven": 0.4561,
+          "p_payback_over_5y": 0.9719,
+          "p_roi_negative": 0.59,
+          "p_roi_over_100pct": 0.0281
+        },
+        "base": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 9922,
+          "n_payback_achieved": 6681,
+          "time_to_breakeven_months": {
+            "median": 1.0,
+            "p5": 1.0,
+            "p95": 13.0,
+            "mean": 3.8222132634549486
+          },
+          "cumulative_payback_years": {
+            "median": 3.5,
+            "p5": 2.3333333333333335,
+            "p95": 4.833333333333333
+          },
+          "roi_5yr": {
+            "median": 1.295613704480281,
+            "p5": 0.2429206732795755,
+            "p95": 2.4091614121047895,
+            "mean": 1.3107836119985217
+          },
+          "simple_payback_years": {
+            "median": 3.6122699341786513,
+            "p5": 1.9572264547100824,
+            "p95": 13.236569897275382
+          },
+          "p_never_breakeven": 0.0078,
+          "p_payback_over_5y": 0.3319,
+          "p_roi_negative": 0.021,
+          "p_roi_over_100pct": 0.6681
+        },
+        "bull": {
+          "n_trials": 10000,
+          "n_breakeven_achieved": 10000,
+          "n_payback_achieved": 9925,
+          "time_to_breakeven_months": {
+            "median": 1.0,
+            "p5": 1.0,
+            "p95": 1.0,
+            "mean": 1.1464
+          },
+          "cumulative_payback_years": {
+            "median": 2.3333333333333335,
+            "p5": 1.5833333333333333,
+            "p95": 3.5833333333333335
+          },
+          "roi_5yr": {
+            "median": 2.768398951471717,
+            "p5": 1.5616731286345868,
+            "p95": 4.007889524194813,
+            "mean": 2.771730843316169
+          },
+          "simple_payback_years": {
+            "median": 1.735804150595515,
+            "p5": 1.1892209949366364,
+            "p95": 3.1321135393520207
+          },
+          "p_never_breakeven": 0.0,
+          "p_payback_over_5y": 0.0075,
+          "p_roi_negative": 0.0,
+          "p_roi_over_100pct": 0.9925
+        }
+      }
+    }
+  },
+  "deterministic_check": {
+    "A_lean": {
+      "break_even_rx_per_day_model": 68.3,
+      "break_even_rx_per_day_report": 68,
+      "first_ebitda_positive_month_model": 9,
+      "first_ebitda_positive_month_report": 10,
+      "year1_ebitda_model": -76031,
+      "year1_ebitda_report": -76031,
+      "roi_5yr_model": 1.051,
+      "roi_5yr_report": 1.05,
+      "simple_payback_years_model": 3.84,
+      "simple_payback_years_report": 3.8,
+      "cumulative_payback_years_model": 4.916666666666667
+    },
+    "B_standard": {
+      "break_even_rx_per_day_model": 111.4,
+      "break_even_rx_per_day_report": 111,
+      "first_ebitda_positive_month_model": 8,
+      "first_ebitda_positive_month_report": 8,
+      "year1_ebitda_model": -56315,
+      "year1_ebitda_report": -56315,
+      "roi_5yr_model": 1.715,
+      "roi_5yr_report": 1.72,
+      "simple_payback_years_model": 2.53,
+      "simple_payback_years_report": 2.5,
+      "cumulative_payback_years_model": 3.6666666666666665
+    },
+    "C_larger": {
+      "break_even_rx_per_day_model": 171.3,
+      "break_even_rx_per_day_report": 171,
+      "first_ebitda_positive_month_model": 9,
+      "first_ebitda_positive_month_report": 9,
+      "year1_ebitda_model": -160697,
+      "year1_ebitda_report": -160701,
+      "roi_5yr_model": 1.347,
+      "roi_5yr_report": 1.35,
+      "simple_payback_years_model": 3.11,
+      "simple_payback_years_report": 3.1,
+      "cumulative_payback_years_model": 4.25
+    }
+  },
+  "overlays_deterministic_base": {
+    "A_lean": {
+      "moratorium_12mo": {
+        "time_to_breakeven_months": 13.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.936,
+        "simple_payback_years": 3.84,
+        "year1_ebitda": -126048.046
+      },
+      "pbm_rate_cut_2pp": {
+        "time_to_breakeven_months": 11.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.546,
+        "simple_payback_years": 6.431,
+        "year1_ebitda": -101523.88
+      },
+      "pic_departure": {
+        "time_to_breakeven_months": 9.0,
+        "cumulative_payback_years": 5.0,
+        "roi_5yr": 1.017,
+        "simple_payback_years": 4.112,
+        "year1_ebitda": -76030.984
+      },
+      "rent_spike_10_per_sqft": {
+        "time_to_breakeven_months": 10.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.913,
+        "simple_payback_years": 4.295,
+        "year1_ebitda": -88030.984
+      }
+    },
+    "B_standard": {
+      "moratorium_12mo": {
+        "time_to_breakeven_months": 10.0,
+        "cumulative_payback_years": 3.917,
+        "roi_5yr": 1.594,
+        "simple_payback_years": 2.535,
+        "year1_ebitda": -152311.489
+      },
+      "pbm_rate_cut_2pp": {
+        "time_to_breakeven_months": 9.0,
+        "cumulative_payback_years": 4.583,
+        "roi_5yr": 1.194,
+        "simple_payback_years": 3.493,
+        "year1_ebitda": -104253.468
+      },
+      "pic_departure": {
+        "time_to_breakeven_months": 8.0,
+        "cumulative_payback_years": 3.667,
+        "roi_5yr": 1.697,
+        "simple_payback_years": 2.597,
+        "year1_ebitda": -56315.292
+      },
+      "rent_spike_10_per_sqft": {
+        "time_to_breakeven_months": 8.0,
+        "cumulative_payback_years": 3.833,
+        "roi_5yr": 1.602,
+        "simple_payback_years": 2.69,
+        "year1_ebitda": -74315.292
+      },
+      "volume_drop_20pct_post_sale": {
+        "time_to_breakeven_months": 11.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.556,
+        "simple_payback_years": 6.506,
+        "year1_ebitda": -162977.734
+      }
+    },
+    "C_larger": {
+      "moratorium_12mo": {
+        "time_to_breakeven_months": 12.0,
+        "cumulative_payback_years": 4.5,
+        "roi_5yr": 1.241,
+        "simple_payback_years": 3.113,
+        "year1_ebitda": -298263.987
+      },
+      "pbm_rate_cut_2pp": {
+        "time_to_breakeven_months": 11.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.887,
+        "simple_payback_years": 4.437,
+        "year1_ebitda": -228032.706
+      },
+      "pic_departure": {
+        "time_to_breakeven_months": 9.0,
+        "cumulative_payback_years": 4.25,
+        "roi_5yr": 1.335,
+        "simple_payback_years": 3.169,
+        "year1_ebitda": -160696.866
+      },
+      "rent_spike_10_per_sqft": {
+        "time_to_breakeven_months": 10.0,
+        "cumulative_payback_years": 4.417,
+        "roi_5yr": 1.251,
+        "simple_payback_years": 3.309,
+        "year1_ebitda": -185692.866
+      }
+    },
+    "D_acquisition": {
+      "moratorium_12mo": {
+        "time_to_breakeven_months": 1.0,
+        "cumulative_payback_years": 3.583,
+        "roi_5yr": 1.678,
+        "simple_payback_years": 2.82,
+        "year1_ebitda": 63661.872
+      },
+      "pbm_rate_cut_2pp": {
+        "time_to_breakeven_months": 1.0,
+        "cumulative_payback_years": 4.083,
+        "roi_5yr": 1.349,
+        "simple_payback_years": 3.886,
+        "year1_ebitda": 137978.4
+      },
+      "pic_departure": {
+        "time_to_breakeven_months": 1.0,
+        "cumulative_payback_years": 3.167,
+        "roi_5yr": 1.83,
+        "simple_payback_years": 2.889,
+        "year1_ebitda": 212109.6
+      },
+      "rent_spike_10_per_sqft": {
+        "time_to_breakeven_months": 1.0,
+        "cumulative_payback_years": 3.333,
+        "roi_5yr": 1.745,
+        "simple_payback_years": 2.992,
+        "year1_ebitda": 194109.6
+      },
+      "volume_drop_20pct_post_sale": {
+        "time_to_breakeven_months": 1.0,
+        "cumulative_payback_years": null,
+        "roi_5yr": 0.738,
+        "simple_payback_years": 7.237,
+        "year1_ebitda": 47167.68
+      }
+    }
+  },
+  "gross_profit_per_rx_base_dispensing": {
+    "median": 16.54,
+    "p5": 14.38,
+    "p25": 15.65,
+    "p95": 18.78,
+    "ncpa_national_average_benchmark": 14.57,
+    "note": "Dispensing GP/Rx only (excl. front-end). NCPA $14.57 sits near the lower quartile: it is the national-average benchmark, corresponding to the conservative margin tail, not the base-case centre. See gross_profit_per_rx()."
+  }
+}
