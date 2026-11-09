@@ -13,7 +13,7 @@ Every report-sourced number below cites the report section. Anything marked
 **ASSUMPTION** is this simulation's assumption, with its basis stated.
 
 **Code:** `src/monte_carlo.py` · **Tests:** `tests/test_monte_carlo.py` (12 passed)
-· **Outputs:** `results/monte_carlo_trials.csv` (120,000 trials),
+· **Outputs:** `results/monte_carlo_trials_part1.csv` … `part4.csv` (120,000 trials, 30,000 each — the single 13.6 MB file is split into four parts for GitHub's upload limit; reassemble with `cat part1.csv <(tail -n +2 part2.csv) <(tail -n +2 part3.csv) <(tail -n +2 part4.csv)`),
 `results/monte_carlo_summary.json` · **Seed:** `20261109` ·
 **Trials:** 10,000 per scenario × variant (4 scenarios × 3 variants) ·
 **Horizon:** 60 months · **Run:** `python src/monte_carlo.py` from the repo root.
@@ -466,8 +466,11 @@ cd ~/workspace/brooklyn-pharmacy-enterprise
 ```
 
 Seed `20261109`, numpy `Generator` only, no time-based or global RNG
-state. Re-running reproduces `results/monte_carlo_trials.csv` (120,000
-rows) and `results/monte_carlo_summary.json` exactly. The JSON uses
+state. Re-running reproduces the full 120,000-row trials file and
+`results/monte_carlo_summary.json` exactly. In this repo the trials file
+is stored as `results/monte_carlo_trials_part1.csv` … `part4.csv`
+(30,000 rows each, header repeated in each part); reassemble with
+`cat results/monte_carlo_trials_part1.csv <(tail -n +2 results/monte_carlo_trials_part2.csv) <(tail -n +2 results/monte_carlo_trials_part3.csv) <(tail -n +2 results/monte_carlo_trials_part4.csv) > monte_carlo_trials.csv`. The JSON uses
 `null` where an event was not achieved within 60 months; the CSV writes
 `nan` in the same cells (documented in the file header note below).
 National context for scale: the average independent filled 67,601 Rx in

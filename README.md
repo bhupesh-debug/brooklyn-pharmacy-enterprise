@@ -78,7 +78,7 @@ pytest tests/test_monte_carlo.py # 12 tests
 | `sop/SOP-01-opening-closing.md` … `sop/SOP-11-staff-roles-escalation.md` | 11 SOPs: opening/closing, dispensing, inventory, PBM adjudication, cash, delivery, counselling & immunisations, compliance, fraud & security, controlled substances, staff roles & escalation. |
 | `src/monte_carlo.py` | The Monte Carlo simulation (seed 20261109, 10,000 trials × 4 scenarios × 3 variants). |
 | `tests/test_monte_carlo.py` | 12 tests (reproducibility, break-even logic, output sanity). |
-| `results/monte_carlo_trials.csv` | 120,000 trial rows from the run. |
+| `results/monte_carlo_trials_part1.csv` … `part4.csv` | 120,000 trial rows from the run, split into 4 files of 30,000 (GitHub upload limit; reassemble per `MONTE_CARLO.md`). |
 | `results/monte_carlo_summary.json` | Summary statistics from the run. |
 | `_config.yml`, `index.md` | GitHub Pages site (Jekyll Cayman theme). |
 
